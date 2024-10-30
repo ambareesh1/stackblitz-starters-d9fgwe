@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
 import { bootstrapApplication } from '@angular/platform-browser';
+import { AppmoduleModule } from './app/module/appmodule/appmodule.module';
+import { AppcomponentComponentComponent } from './app/components/appcomponent/appcomponent-component/appcomponent-component.component';
 
 @Component({
   selector: 'app-root',
@@ -15,4 +17,4 @@ export class App {
   name = 'Angular';
 }
 
-bootstrapApplication(App);
+bootstrapApplication(AppcomponentComponentComponent);
